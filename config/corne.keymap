@@ -15,7 +15,7 @@
 
         bt-config {
             bindings = <&mo 2>;
-            key-positions = <0>;
+            key-positions = <0 12>;
         };
     };
 
