@@ -8,6 +8,15 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        bt-config {
+            bindings = <&mo 2>;
+            key-positions = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
